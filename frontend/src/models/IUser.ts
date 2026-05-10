@@ -1,7 +1,10 @@
-export interface IUser {
+export type IUser = {
+  id: number;
   nickname: string;
-  name: string;
-  surname: string;
-  direction: string;
+  password: string;
+  name: string | null;
+  surname: string | null;
+  address: string | null;
   email: string;
-}
+  createdAt: Date;
+};
