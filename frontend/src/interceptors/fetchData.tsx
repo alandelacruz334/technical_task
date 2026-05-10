@@ -1,6 +1,6 @@
 import type { ApiMethodTypes } from "../models/ApiMethodTypes";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000";
+const API_URL = import.meta.env.VITE_API_URL || "https://technical-task-backend.onrender.com";
 
 const DEFAULT_ERROR_RESPONSE = new Response(
   JSON.stringify({ error: "Fetch Error" }),
